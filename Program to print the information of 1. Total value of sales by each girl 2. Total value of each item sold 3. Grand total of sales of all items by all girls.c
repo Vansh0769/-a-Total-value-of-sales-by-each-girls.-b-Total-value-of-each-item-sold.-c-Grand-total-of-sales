@@ -9,7 +9,7 @@ int i,j,grand_total;
 
     printf ("Input data\n");
     printf ("Enter values, one at a time, row-wise\n\n");
-
+// Computing girl_total
     for (i=0;i<MAXGIRLS;i++){
         girl_total[i]=0;
         for (j=0;j<MAXITEMS;j++){
@@ -17,12 +17,14 @@ int i,j,grand_total;
             girl_total[i]= girl_total[i] + value[i][j];
         }
     }
+// Computing item_total    
 for (j=0;j<MAXITEMS;j++){
     item_total[j]=0;
     for (i=0;i<MAXGIRLS;i++){
         item_total[j]=item_total[j]+value[i][j];
     }
 }
+// Computing grand_total    
 grand_total=0;
 for (i=0;i<MAXGIRLS;i++){
     grand_total=grand_total+girl_total[i];
