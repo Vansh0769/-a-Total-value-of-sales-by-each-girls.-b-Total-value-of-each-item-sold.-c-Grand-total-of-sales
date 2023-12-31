@@ -1,0 +1,1 @@
+# -a-Total-value-of-sales-by-each-girls.-b-Total-value-of-each-item-sold.-c-Grand-total-of-sales
